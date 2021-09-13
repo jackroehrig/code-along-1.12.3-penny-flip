@@ -8,14 +8,18 @@
 </head>
 <body>
     <main>
-        <H1>Penny Flip Game</H1>
+        <!-- <H1>Penny Flip Game</H1> -->
+        <h1>Dice Roll Game</h1>
         <div>
             <div>
-                <div>
-                    <img id='penny-image' src='assets/images/penny-heads.jpg' alt='heads up penny'/>
+                <div id='images'>
+                    <!-- <img id='penny-image' src='assets/images/penny-heads.jpg' alt='heads up penny'/> -->
+                    <img id='dice-image1' src='assets/images/dice/dice1.png' alt='number 1 dice'/>
+                    <img id='dice-image2' src='assets/images/dice/dice2.png' alt='number 2 dice'/>
                 </div>
                 <div class='controls'>
-                    <button id='flip'>Flip The Penny!</button>
+                    <!-- <button id='flip'>Flip The Penny!</button> -->
+                    <button id='roll'>Roll the Dice!</button>
                     <button id='clear'>Clear Scoreboard</button>
                 </div>
                 <div class='message-container'>
@@ -24,8 +28,8 @@
             </div>
             <hr>
             <div>
-                <h2>Scoreboard</h2>
-                <table>                    
+                <h2>Scoreboards</h2>
+                <!-- <table>                    
                     <thead>
                         <tr>
                             <th>Number of Heads</th>
@@ -40,6 +44,84 @@
                             <td id="heads-percent">0%</td>
                             <td id="tails">0</td>
                             <td id="tails-percent">0%</td>
+                        </tr>
+                    </tbody>
+                </table>     -->
+                <div id='top-tables'>
+                    <table>                    
+                        <thead>
+                            <tr>
+                                <th>Total Twos</th>
+                                <th>Total Threes</th>
+                                <th>Total Fours</th>
+                                <th>Total Fives</th>
+                                <th>Total Sixes</th>
+                                <th>Total Sevens</th>
+                                <th>Total Eights</th>
+                                <th>Total Nines</th>
+                                <th>Total Tens</th>
+                                <th>Total Elevens</th>
+                                <th>Total Twelves</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="total-twos">0</td>
+                                <td id="total-threes">0</td>
+                                <td id="total-fours">0</td>
+                                <td id="total-fives">0</td>
+                                <td id="total-sixes">0</td>
+                                <td id="total-sevens">0</td>
+                                <td id="total-eights">0</td>
+                                <td id="total-nines">0</td>
+                                <td id="total-tens">0</td>
+                                <td id="total-elevens">0</td>
+                                <td id="total-twelves">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Total Double Rolls</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id='total-doubles'>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table id='bottom-table'>                    
+                    <thead>
+                        <tr>
+                            <th>Percentage of Twos</th>
+                            <th>Percentage of Threes</th>
+                            <th>Percentage of Fours</th>
+                            <th>Percentage of Fives</th>
+                            <th>Percentage of Sixes</th>
+                            <th>Percentage of Sevens</th>
+                            <th>Percentage of Eights</th>
+                            <th>Percentage of Nines</th>
+                            <th>Percentage of Tens</th>
+                            <th>Percentage of Elevens</th>
+                            <th>Percentage of Twelves</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="percentage-twos">0%</td>
+                            <td id="percentage-threes">0%</td>
+                            <td id="percentage-fours">0%</td>
+                            <td id="percentage-fives">0%</td>
+                            <td id="percentage-sixes">0%</td>
+                            <td id="percentage-sevens">0%</td>
+                            <td id="percentage-eights">0%</td>
+                            <td id="percentage-nines">0%</td>
+                            <td id="percentage-tens">0%</td>
+                            <td id="percentage-elevens">0%</td>
+                            <td id="percentage-twelves">0%</td>
                         </tr>
                     </tbody>
                 </table>

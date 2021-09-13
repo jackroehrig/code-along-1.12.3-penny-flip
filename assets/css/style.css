@@ -21,6 +21,17 @@ h1 {
     padding: 25px;
 }
 
+#images {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 40%;
+}
+
+img {
+    margin: 0px 0px 20px 0px;
+}
+
 /* Controls and Message Styles */
 .controls {
     padding: 20px;
@@ -68,4 +79,15 @@ td {
 td {
     padding: 5px;
     font-weight: bold;
+}
+
+#top-tables {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+#bottom-table {
+    width: 80%;
 }
